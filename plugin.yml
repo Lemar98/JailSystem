@@ -1,0 +1,38 @@
+name: JailSystem
+main: ru.Lemar98.JS.Main
+author: Lemar98
+version: 0.1
+commands:
+  setprison:
+    description: set the place of jail
+    usage: /setPrison <name>
+  removeprison:
+    description: remove the place of jail
+    usage: /removeprison <name>
+  arrest:
+    description: arrest the player
+    usage: /arrest <jail_name> <player>
+  amnesty:
+    description: amnesty the player
+    usage: /amnesty <player>
+  setprisonrespawn:
+    description: set the location for respawn after jail
+    usage: /setprisonrespawn
+  freedom:
+    description: advokatnie uslugi
+    usage: /freedom <name>
+  jsaccept:
+    description: accept the offer
+    usage: /jsaccept
+  jsdeny:
+    description: deny the offer
+    usage: /jsdeny
+  jailtime:
+    description: get the time before amnesty
+    usage: /jailtime
+  jailhelp:
+    description: send basicaly information
+    usage: /jailhelp
+  jsreload:
+    description: reload the plugin/config
+    usage: /jsreload <plugin/config>

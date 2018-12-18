@@ -1,0 +1,20 @@
+pluginPrefix: '&4[&dТюрьма&4] '
+MySQL:
+  host: s607.mc.minehosting.pro
+  database: Jail
+  username: Mralexhockey
+  password: 998831
+  port: 3306
+StarSettings:
+  star1: 60
+  star2: 90
+  star3: 120
+  star4: 160
+  star5: 200
+AdvokatSettings:
+  price: 100
+  percent: 10
+BlockedCommand:
+ - sit
+ - lay
+ - jail
